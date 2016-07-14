@@ -13,7 +13,7 @@ $(function(){
         },
         dataType: "json"
     }).done(function(){
-        $('#form').html('<h2>Thank you for getting in touch!</h2>, <h4>We appreciate you contacting us about [Contact Reason]. We try to respond as soon as possible, so one of our Customer Service colleagues will get back to you within a few hours. Have a great day ahead!</h4>');
+        $('#form').html('<h2>Thank you for getting in touch!</h2><h4>We appreciate you contacting us about. We try to respond as soon as possible. Have a great day ahead!</h4>');
     });
   });
 });
