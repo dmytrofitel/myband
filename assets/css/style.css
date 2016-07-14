@@ -1,0 +1,332 @@
+body {
+   font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;   
+    margin-top: 40px;
+    line-height:16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+   line-height:40px;
+   
+}
+
+h1 {
+    color:#753A13;
+    font-weight: 700;
+}
+.text-center {
+    text-align: center; 
+}
+
+.main-top-margin {
+     margin-top: 75px;
+}
+.main-low-margin {
+     margin-top: 55px;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+}
+/* demo контейнер */
+.demo {
+    margin: 5% 10%;
+}
+
+/* SECOND HIDDEN CONTENT */
+/* скрываем чекбоксы и блоки с содержанием */
+.hide2 {
+    display: none; 
+}
+.hide2 + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide2 + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide2:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide2:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+}
+/* demo контейнер */
+.demo {
+    margin: 5% 10%;
+}
+
+.img-margin-product {
+    margin-top:30px;
+}
+.bottam-pad {
+     padding-bottom:40px;
+}
+.text-justify {
+    text-align:justify;
+}
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+    color:#000000;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.color-green {
+    color:#07BB00;
+}
+
+.color-light-blue {
+    color:#BB00BB;
+}
+
+.color-blue {
+    color:#0052FF;
+}
+.color-brown {
+    color:#EB8F2D;
+}
+.color-black {
+    color:#000000;
+}
+
+/* ==========================================================================
+   HEADER SECTION
+   ========================================================================== */
+
+#header-section {
+  	background: url(../img/bg-web.png) no-repeat center top;
+  	margin-top: -20px;
+  	padding-top: 20px;
+  	text-align: center;
+  	background-position: center center;
+  	height: auto;
+  	width: auto;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#header-section h1 {
+	margin-top: 120px;
+	color: white;
+	font-size: 65px;
+	font-weight: 900;
+	letter-spacing: 4px;
+    line-height:70px;
+}
+
+#header-section h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+.down-icon {
+     color:white;
+    font-weight:900;
+    margin-top: 600px; 
+}
+
+
+
+/* ==========================================================================
+   ABOUT SECTION
+   ========================================================================== */
+
+#about-section {
+    background-color: #FAFAFA;
+   
+}
+
+
+/*==========================================
+   SOCIAL ICON STYLES
+    =====================================================*/
+
+.color-facebook {
+    color:#3B5998;
+}
+.color-vk {
+     color:#45668e;
+}
+.color-youtube {
+     color:#e52d27;
+}
+.color-instagram {
+      background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.color-instagram {
+  --insta-icon-size: 25px;
+}
+.color-instagram {
+  position: relative;
+  width: var(--insta-icon-size);
+  height: var(--insta-icon-size);
+  border-radius: 20%;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+}
+.color-instagram:after,
+.color-instagram:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(var(--insta-icon-size)/1.5);
+  height: calc(var(--insta-icon-size)/1.5);
+  border: calc(var(--insta-icon-size)/18) solid #fff;
+  transform: translate(-50%, -50%);
+  content: ''
+}
+.color-instagram:before {
+  border-radius: 20%
+}
+.color-instagram:after {
+  width: calc(var(--insta-icon-size)/4);
+  height: calc(var(--insta-icon-size)/4);
+  border-radius: 50%
+}
+
+/* YOUTUBE */
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+/* CAROUSEL ELEMENTS */
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 14px;
+}
+
+.navbar-inverse {
+	background: #000000;
+border-color: #5D5B66;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFFFFF;
+}
+
+/* ==========================================================================
+   CONTACT SECTION
+   ========================================================================== */
+
+#contact-section {
+    background-color: #FAFAFA;
+}
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+   
+
+#footer {
+    background-color: #000000; 
+    color: #fff; 
+    text-align: right; 
+    padding: 10px 30px 10px 30px;
+}
+
+
